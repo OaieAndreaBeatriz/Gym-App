@@ -1,17 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [
-    './src/scenes/benefits/Benefit.tsx',
-    './src/scenes/benefits/index.tsx',
-    './src/scenes/contactUs/index.tsx',
-    './src/scenes/footer/index.tsx',
-    './src/scenes/home/index.tsx',
-    './src/scenes/navbar/index.tsx',
-    './src/scenes/navbar/Link.tsx',
-    './src/scenes/ourClasses/Class.tsx',
-    './src/scenes/ourClasses/index.tsx',
-    './src/shared/ActionButton.tsx',
-  ],
+  purge: [ "./src/scenes/**/*.{js,ts,jsx,tsx}", "./src/shared/**/*.{js,ts,jsx,tsx}", "./src/App.tsx"],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
