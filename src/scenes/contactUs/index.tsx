@@ -149,5 +149,6 @@ const ContactUs = ({setSelectedPage}: Props) => {
       </motion.div>
     </section>
   )
+  .
 }
 export default ContactUs
