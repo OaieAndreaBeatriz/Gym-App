@@ -6,7 +6,7 @@ type Props = {
   icon: JSX.Element;
   title: string;
   description: string;
-  setSelectedPage: (value: SelectedPage) => void
+  setSelectedPage: (value: SelectedPage) => void;
 }
 
 const childVariant = {
